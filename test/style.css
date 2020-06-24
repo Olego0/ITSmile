@@ -4,3 +4,11 @@
     box-sizing: border-box;
     background-color: antiquewhite;
 }
+
+.btn {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: rgb(83, 83, 136);
+    color: black;
+    cursor: pointer;
+}
