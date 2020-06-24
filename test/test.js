@@ -57,6 +57,41 @@ document.getElementsByTagName('a')[0].onclick = function() {
     // document.write('<a href="text.txt;charset=utf-8,%EF%BB%BF' + encodeURIComponent(text) + '">text.txt</a>');
     
 };
+
+/* 
+let sfname=document.getElementById('namess');
+let slname=document.getElementById('surnamess');
+let stime=document.getElementById('timess');
+
+document.getElementById('sends').addEventListener('click', sents);
+let gggg;
+function sents(){
+    gggg = {
+        names: sfname.value,
+        surnames: slname.value,
+        dates: stime.value
+    }
+    console.log(gggg);
+}
+// ================================================================
+document.getElementsByClassName('f2')[0].onclick = function() {                  
+    let csvss = `Name: ${gggg.names} ${gggg.surnames}`;
+    let csvsss = `    Date: ${gggg.dates}`;
+    let csvDatas = 'data:application/csv;charset=utf-8,' + encodeURIComponent(csvss) + ';' + encodeURIComponent(csvsss);
+    this.href = csvDatas;
+    // this.target = '_blank';
+    this.download = gggg.names+' '+gggg.surnames+'(ушел).txt';
+
+    window.location.reload()
+    window.location.reload()
+    window.location.reload()
+    window.location.reload()
+    // fs.writeFileSync("filename.txt", `Name: ${ggg.name} ${ggg.surname} Date: ${ggg.date}`);
+    // let text = `Name: ${ggg.name} ${ggg.surname} Date: ${ggg.date}`
+    // document.write('<a href="text.txt;charset=utf-8,%EF%BB%BF' + encodeURIComponent(text) + '">text.txt</a>');
+    
+};
 // ================================================================
 
 
+ */
