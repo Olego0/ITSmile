@@ -1,14 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Overlock');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: antiquewhite;
-}
 
+}
+body{
+    background-color: rgb(121, 181, 199);
+}
 .btn {
-    display: inline-block;
+    display: flex;
     padding: 10px 10px;
     background-color: rgb(83, 83, 136);
     color: black;
     cursor: pointer;
+    justify-content: center;
+    margin-top: 10px;    
+}
+/* ==========================NAVIGATION============================= */
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+.head-bgimg{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+form, input {
+  font-size: 20px;
+}
+.wrapper {
+  margin: 10px;
+  width: 45%;
+  font-family: 'Overlock', cursive;
+  padding: 20px;
+  background-color: rgb(41, 69, 161);
+}
+
+.container_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+  text-align: center;
+  margin: 2px;
+  text-shadow: var(--black-text-alfa2);
+  color: rgb(0, 0, 0);
 }
