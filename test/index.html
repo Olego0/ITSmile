@@ -8,7 +8,11 @@
 </head>
 <body>
     <div class="container">
-        <div class="head-bgimg" id="sectionhome"><img class="logo" src="./img/logo.png"><h1>IT Smile</h1></div>
+        <div class="head-bgimg" id="sectionhome">
+            <img class="logo" src="./img/logo.png">
+            <div class="logoText">IT Smile</div>
+            
+        </div>
     <div class="container_wrapper">
         <div class="wrapper">
             <h2></h2>
@@ -25,19 +29,27 @@
                 <div class="cont_select">
                     <div class="nameText">Выберите нужное:</div> <br>
                     <div class="select">
-                        <select name="variants" id="variants">
+                        <select id="variants">
                             <option value="1">Пришел</option>
                             <option value="2">Ушел</option>
                         </select>
                     </div>
                 </div>
             </div>
-            <a id="send" class="btn" class="f1">Отправить</a>
+            
+            <div class="btnAll">
+                <a id="send" class="btn" class="f1">Отправить</a>
+                <div class="round">Night Mode</div>
+            </div>
             <!-- <input type="button" onclick="sent()"> -->
             
         </div>
     </div> 
     </div>
+    <footer class="contacts-section">
+        <hr color="white" size="1">
+        <p class="copyright">2020 &copy; IT Smile Company. All Rights Reserved</p>
+    </footer>
     <script src="./test.js"></script>
 </body>
 </html>

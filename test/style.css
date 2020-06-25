@@ -17,27 +17,20 @@ body{
   display: inline-block;
   padding: 10px;
 }
-h1{
+.logoText{
   font-size: 100px;
   color: rgb(255, 255, 255);
-  margin-top: 3.5%;
-  margin-left: 20px;
+  margin-top: 90px;
+  margin-left: 30px;
+  
 }
-.btn {
-    display: flex;
-    padding: 10px 10px;
-    background-color: #608ae4;
-    color: black;
-    cursor: pointer;
-    justify-content: center;
-    margin-top: 30px;  
-    border-radius: 30px; 
-}
+
 /* ==========================NAVIGATION============================= */
 
 .logo{
     width: 300px;
     height: 300px;
+    display: inline-block;
     
 }
 .head-bgimg{
@@ -92,6 +85,7 @@ input{
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 250px;
 }
 
 select {
@@ -120,4 +114,55 @@ h2 {
 
 #times {
   margin-top: 17px;
+}
+/* =================================================== */
+.round{
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: #608ae4;
+  color: black;
+  font-size: 15px;
+  width: 20%;
+  height: 20%;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: #608ae4;
+  color: black;
+  font-size: 15px;
+  width: 79%;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+  
+}
+.btnAll{
+  margin-top: 20px;
+}
+/* ======================================================= */
+.contacts-section {
+  background-color: rgb(62, 66, 67);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  position: fixed;
+  left: 0; bottom: 0;
+  color: #fff;
+  width: 100%;
+}
+hr {
+  margin-bottom: 25px;
+}
+.copyright {
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+  line-height: 50%;
+  color: #d6d6d6c7;
+  padding-bottom: 24px;
+  text-align: center;
 }
