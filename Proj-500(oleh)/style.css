@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(104, 196, 104);
+}
+.name{
+    text-transform: uppercase;
+}
+.grid {
+	display: table;	
+	width: 100%;
+	border: none;
+	border-collapse: separate;
+	border-spacing: 5px;
+}
+.grid-tr {
+	 display: table-row;
+}
+.grid-td {
+	display: table-cell;	
+	width: 19%;
+	vertical-align: top;
+	padding: 0;
+}
+.wrapper {
+  width: 480px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  font-weight: 100;
+}
+
