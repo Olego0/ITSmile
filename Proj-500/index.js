@@ -1,42 +1,53 @@
 
-let password =+ prompt("Your password:");
-let leson;
-let mybal;
-let mycoins;
-let passwords = {
-    oleh:{
-        pass: 123,
-        coins: {},
-        points: {}
-    },
-    ars: {
-        pass: 321,
-        coins: {}
-    }
-    
-}
-passwords.oleh.coins[leson] = mybal;
-if(password == passwords.oleh.pass){
-    console.log("1");
-    leson = prompt("Your leson:");
-    mybal =+ prompt("Your bal:");
-    mycoins =+ prompt("Your coins:");
-    document.getElementById('a').innerHTML = password.oleh;
-    document.getElementById('b').innerHTML = password.oleh;
-    document.getElementById('c').innerHTML = password.coins
+// ========================================================
 
-} else if(password == passwords.ars.pass){
-    console.log("2");
-    leson = prompt("Your leson:");
-    mybal =+ prompt("Your bal:");
-    mycoins =+ prompt("Your coins:");
-    document.getElementById('a').innerHTML = password.ars;
-    document.getElementById('b').innerHTML = password.ars;
-    document.getElementById('c').innerHTML = password.ars
-} else{
-    alert("Вас нету в базе данных!!!");
+// const oleh=1234,
+// YarikPass=123123,
+// OlehPass=654321;
+
+let pas= +prompt("Ваш пароль:");
+let subj = prompt("Your leson:");
+let coin = +prompt("Your coin:");
+let point = +prompt("Your points:");
+let OlehPass = 123;
+let ArsPass = 321;
+let YarikPass = 312;
+
+
+let DB = {
+    oleh:{
+        name: "oleh",
+        coins: coin,
+        points: point,
+        subject: subj
+    },
+    ars:{
+        name: "ars",
+        coins: coin,
+        points: point,
+        subject: subj
+    },
+    yarik:{
+        name: "yarik",
+        coins: coin,
+        points: point,
+        subject: subj
+    }
 }
-console.log(passwords.oleh);
-console.log(passwords.ars);
+if(pas == OlehPass){
+   document.getElementById("a").innerHTML = DB.oleh.name;
+
+}else if(pas == ArsPass){
+    document.getElementById("a").innerHTML = DB.ars.name;
+
+}else if(pas == YarikPass){
+   document.getElementById("a").innerHTML = DB.yarik.name;
+
+}
+
+
+
+
+
 
 
