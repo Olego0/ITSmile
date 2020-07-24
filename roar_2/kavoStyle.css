@@ -5,7 +5,7 @@
     cursor: cell;   
 }
 body{
-    background-color: rgb(93, 179, 219);
+    background-color: rgb(18, 135, 189);
 }
 nav{
     margin-top: 20px;
@@ -18,22 +18,49 @@ nav > button{
     margin-right: 5px;
     border-radius: 20px;
     font-size: 20px;
-    /* text-transform: uppercase; */
+
     cursor: pointer;
 }
 #btn1{
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 20px;
+    cursor: pointer;
     padding-left: 30px;
     padding-right: 30px;
     font-size: 30px;
     display: block;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 28px;
     margin-bottom: 20px;
 }
+
 .container{
     margin-left: 20px;
 }
+#btn5{
+    width: 50px;
+    height: 40px;
+}
+
+#txt1 {
+    font-size: 30px;
+    display: none;
+    justify-content: center;
+    margin-top: 20px;
+    color: antiquewhite;
+}
+
+/* .result{
+} */
+/* .txt1 > p{
+
+} */
+#btn2{
+    margin-left: 760px;
+}
 .container > button{
+    height: 40px;
     display: none;
     font-size: 20px;
     border-radius: 20px;

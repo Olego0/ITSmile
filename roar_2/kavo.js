@@ -81,7 +81,7 @@ function mathQuizEasy() {
                     ok4=confirm("One more?");
                     db[key2][x]=points1;
                     console.log(db);
-                    document.getElementById("1").innerHTML="Yor ballance is "+points1+' points';
+                    document.getElementById("txt1").innerHTML="Yor ballance is "+points1+' points';
                 }
                     
                 
@@ -159,7 +159,7 @@ function mathQuizNormal() {
                     ok2=confirm("One more?");
                     db[key3][x]=points1;
                     console.log(db);
-                    document.getElementById("1").innerHTML="Yor ballance is "+points1+' points';
+                    document.getElementById("txt1").innerHTML="Yor ballance is "+points1+' points';
                 }
                     
                 
@@ -237,7 +237,7 @@ function mathQuizHard() {
                     ok3=confirm("One more?");
                     db[key4][x]=points1;
                     console.log(db);
-                    document.getElementById("1").innerHTML="Yor ballance is "+points1+' points';
+                    document.getElementById("txt1").innerHTML="Yor ballance is "+points1+' points';
                 }
                     
                 
@@ -278,7 +278,7 @@ function mathQuizUltraHard() {
                     ok3=confirm("One more?");
                     db[key5][x]=points1;
                     console.log(db);
-                    document.getElementById("1").innerHTML="Yor ballance is "+points1+' points';
+                    document.getElementById("txt1").innerHTML="Yor ballance is "+points1+' points';
                 }
                     
                 
@@ -332,9 +332,22 @@ function start(){
     let btn1 = document.getElementById("btn2").style.display = "inline-block";
     let btn2 = document.getElementById("btn3").style.display = "inline-block";
     let btn3 = document.getElementById("btn4").style.display = "inline-block";
-    // console.log(btnOne);
-
+    let btn4 = document.getElementById("btn5").style.display = "inline-block";
+    // let btn5 = document.getElementById("btn6").style.display = "inline-block";
+    let txt5 = document.getElementById("txt1").style.display = "flex";
 }
+function esc(){
+    let btn = document.getElementById("btn1").style.display = "block";
+    let btn1 = document.getElementById("btn2").style.display = "none";
+    let btn2 = document.getElementById("btn3").style.display = "none";
+    let btn3 = document.getElementById("btn4").style.display = "none";
+    let btn4 = document.getElementById("btn5").style.display = "none";
+    // let btn5 = document.getElementById("btn6").style.display = "none";
+    let txt5 = document.getElementById("txt1").style.display = "none";
+}
+// function reload(){
+//     window.location.reload();
+// }
 
 function play() {
     let pass="";
@@ -373,14 +386,14 @@ function play() {
                     points1+=y;
                     db[key1][x]=points1;
                     console.log(db);
-                    document.getElementById("1").innerHTML="Yor ballance is "+points1+' points';
+                    document.getElementById("txt1").innerHTML="Yor ballance is "+points1+' points';
                     
                 }else{
                     console.log(`player ${key1} lost. The number was ${a}`);
                     points1-=bet;
                     db[key1][x]=points1;
                     console.log(db);
-                    document.getElementById("1").innerHTML="Yor ballance is "+points1+' points';
+                    document.getElementById("txt1").innerHTML="Yor ballance is "+points1+' points';
                     
                 }
             } 
